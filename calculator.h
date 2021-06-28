@@ -6,6 +6,7 @@ private:
 	int y;
 	int o;
 	int e;
+  
 public:
 	void setValue(int s, int e);
 	void calculate();
