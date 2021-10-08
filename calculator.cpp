@@ -1,7 +1,7 @@
 #include "calculator.h"
 #include<iostream>
 using namespace std;
-
+//set vlaue function
 void calculator::setValue(int s, int e)
 {
 	x = s;
@@ -44,7 +44,7 @@ void calculator::display()
 
 	if (x < y && x>=0 && y > 0) {
 
-		cout << "----------------------------------------------------------" << endl;
+		cout << "-------------------------------------------------------" << endl;
 		cout << " " << x << "  to  " << y << " odd number sum is : " << o << endl;
 		cout << " " << x << "  to  " << y << " even number sum is : " << e << endl;
 		cout << "----------------------------------------------------------" << endl;
