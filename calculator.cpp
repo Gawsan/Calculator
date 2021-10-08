@@ -55,6 +55,7 @@ void calculator::display()
 	else {
 		cout <<endl<< "---sorry you entered wrong value---" << endl;
     cout << "-------Created by Gawsan----------" << endl;
+	cout<<"Vs code check"<<endl;
 
 	}
 }
